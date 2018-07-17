@@ -1,0 +1,23 @@
+:root {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+h1:not(:first-of-type) {
+	margin-top: 3em;
+}
+
+div {
+	margin: 2em;
+	display: block;
+	height: 100px;
+	width: 100px;
+	background-color: #55d;
+	border: 5px solid red;
+	outline: 5px solid green;
+}

@@ -1,0 +1,4 @@
+.minified {
+	/* This will be turned into border-bottom:5px 0 #000, which is invalid. */
+	border-bottom: 5px none black;
+}

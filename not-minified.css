@@ -1,0 +1,4 @@
+.not-minified {
+	/* Even though this is overly verbose for the removal of a border, it's perfectly valid. */
+	border-bottom: 5px none black;
+}
