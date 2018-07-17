@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cloudflare CSS Minification Test</title>
+		<link rel="stylesheet" href="not-minified.css">
+		<link rel="stylesheet" href="minified.css">
+	</head>
+	<body>
+		<h1>The div below uses raw, unminified CSS.</h1>
+		<div class="not-minified"></div>
+		<h1>The div below uses CSS minified by Cloudflare.  It should look the same as the previous div.</h1>
+		<div class="minified"></div>
+	</body>
+</html>
